@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SQLite3
 
 struct LogoView: View {
     var body : some View {
