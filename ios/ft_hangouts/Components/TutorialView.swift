@@ -15,7 +15,7 @@ struct TutorialView : View {
     @State var platerScore = 0
     @State var cpuScore = 0
     func deal() {
-        var random = [Int.random(in:2...14), Int.random(in:2...14)]
+        let random = [Int.random(in:2...14), Int.random(in:2...14)]
         playerCard = "card" + random[0]
             .codingKey.stringValue
         cpuCard = "card" + random[1]
